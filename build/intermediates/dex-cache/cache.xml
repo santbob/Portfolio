@@ -2,13 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Users/santhosh/Code/personal/android/Portfolio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/santhosh/Code/personal/android/Portfolio/app/build/intermediates/pre-dexed/debug/classes-7e2a49b523f9ca2bf7276c5ed7cc31b59aaaf6dc.jar" />
-    </item>
-    <item
         jar="/Users/santhosh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -16,18 +9,25 @@
         <dex dex="/Users/santhosh/Code/personal/android/Portfolio/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e19905cb2a80859b0378060ccbfa590b1271df6e.jar" />
     </item>
     <item
-        jar="/Users/santhosh/Code/personal/android/Portfolio/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/santhosh/Code/personal/android/Portfolio/app/build/intermediates/pre-dexed/debug/classes-98b74f6e2f56dd34c53917489857e619f2bf10fb.jar" />
-    </item>
-    <item
         jar="/Users/santhosh/Code/personal/android/Portfolio/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
         <dex dex="/Users/santhosh/Code/personal/android/Portfolio/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-8dabc407b926cbb75175598de62402d7dafebdb5.jar" />
+    </item>
+    <item
+        jar="/Users/santhosh/Code/personal/android/Portfolio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/santhosh/Code/personal/android/Portfolio/app/build/intermediates/pre-dexed/debug/classes-7e2a49b523f9ca2bf7276c5ed7cc31b59aaaf6dc.jar" />
+    </item>
+    <item
+        jar="/Users/santhosh/Code/personal/android/Portfolio/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/santhosh/Code/personal/android/Portfolio/app/build/intermediates/pre-dexed/debug/classes-98b74f6e2f56dd34c53917489857e619f2bf10fb.jar" />
     </item>
 
 </items>
