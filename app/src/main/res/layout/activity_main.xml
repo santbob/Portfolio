@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#ffdfeaf1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="30dp"
+        android:text="@string/app_title"
+        android:textSize="30dp"
+        android:textColor="#F44336" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_spotify"
+        android:id="@+id/spotify_btn"
+        android:layout_gravity="center"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:width="250dp"
+        android:background="#EF9A9A"
+        android:textColorHighlight="#fff"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:onClick="buttonClicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_scores_app"
+        android:id="@+id/scores_app_btn"
+        android:layout_gravity="center"
+        android:layout_below="@+id/spotify_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#EF9A9A"
+        android:width="250dp"
+        android:textStyle="bold"
+        android:onClick="buttonClicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_library_app"
+        android:id="@+id/library_app_btn"
+        android:layout_gravity="center"
+        android:layout_below="@+id/scores_app_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#EF9A9A"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:width="250dp"
+        android:textStyle="bold"
+        android:onClick="buttonClicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_build_it_bigger"
+        android:id="@+id/build_it_bigger_btn"
+        android:layout_gravity="center"
+        android:layout_below="@+id/library_app_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#EF9A9A"
+        android:width="250dp"
+        android:textStyle="bold"
+        android:onClick="buttonClicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_bacon_reader"
+        android:id="@+id/bacon_reader_btn"
+        android:layout_gravity="center"
+        android:layout_below="@+id/build_it_bigger_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#EF9A9A"
+        android:width="250dp"
+        android:textStyle="bold"
+        android:onClick="buttonClicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_capstone"
+        android:id="@+id/capstone_btn"
+        android:layout_gravity="center"
+        android:layout_below="@+id/bacon_reader_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#D50000"
+        android:width="250dp"
+        android:textStyle="bold"
+        android:onClick="buttonClicked" />
+
+</RelativeLayout>
